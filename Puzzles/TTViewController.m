@@ -49,7 +49,7 @@
     CGFloat starty = 0;
     int numberOfRow = counts;
     int numberOfSection = 0;
-    numberOfSection = imgHeight/(imgWeight/numberOfRow);
+    numberOfSection = imgHeight/(imgWeight/numberOfRow) + 1;
     int count = 1;
     CGFloat scale;
     for (int i = 1; i <= numberOfSection; i++) {
@@ -192,7 +192,7 @@
             [self.arrayOfPoint addObject:[NSValue valueWithCGRect:view.frame]];
             
             [view addSubview:imgView];
-            [self.view addSubview:view];
+            //[self.view addSubview:view];
             [self.imgViewArray addObject:view];
             count++;
             
@@ -357,6 +357,7 @@
     
     self.slider.hidden = YES;
     self.selectImageBtn.hidden = YES;
+    self.sliderLabel.hidden = YES;
     
     [picker dismissViewControllerAnimated:YES completion:nil];
 }
@@ -370,7 +371,6 @@
 
 
 - (IBAction)changeValueSlider:(id)sender {
-    
-      NSLog(@"%f",self.slider.value);
+    self.sliderLabel.text = [NSString stringWithFormat:@"%f",self.slider.value];
 }
 @end
