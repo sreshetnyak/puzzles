@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A551BE2218B4A5AC001CD7CB /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A551BE1E18B4A5AC001CD7CB /* 2.jpg */; };
+		A551BE2318B4A5AC001CD7CB /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A551BE1F18B4A5AC001CD7CB /* 1.jpg */; };
+		A551BE2418B4A5AC001CD7CB /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A551BE2018B4A5AC001CD7CB /* 3.jpg */; };
+		A551BE2518B4A5AC001CD7CB /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A551BE2118B4A5AC001CD7CB /* 4.jpg */; };
+		A551BE3318B4B4DF001CD7CB /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A551BE3218B4B4DF001CD7CB /* 5.jpg */; };
+		A551BE3518B4B50A001CD7CB /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A551BE3418B4B50A001CD7CB /* 6.jpg */; };
+		A551BE3818B4CA21001CD7CB /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A551BE3618B4CA21001CD7CB /* 8.jpg */; };
+		A551BE3918B4CA21001CD7CB /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A551BE3718B4CA21001CD7CB /* 7.jpg */; };
+		A551BE3D18B4CA46001CD7CB /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A551BE3A18B4CA46001CD7CB /* 9.jpg */; };
+		A551BE3E18B4CA46001CD7CB /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A551BE3B18B4CA46001CD7CB /* 11.jpg */; };
+		A551BE3F18B4CA46001CD7CB /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A551BE3C18B4CA46001CD7CB /* 10.jpg */; };
+		A551BE4318B51F76001CD7CB /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A551BE4218B51F76001CD7CB /* 12.jpg */; };
+		A551BE4518B52A26001CD7CB /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A551BE4418B52A26001CD7CB /* 13.jpg */; };
+		A551BE4B18B5317F001CD7CB /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A551BE4A18B5317F001CD7CB /* 14.jpg */; };
+		A5915BAD18B628B200928607 /* mm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5915BAC18B628B200928607 /* mm.jpg */; };
+		A5915BAF18B634B400928607 /* kk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5915BAE18B634B400928607 /* kk.jpg */; };
+		A5DD2C2718B3826900E756A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DD2C2618B3826900E756A3 /* Foundation.framework */; };
+		A5DD2C2918B3826900E756A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DD2C2818B3826900E756A3 /* CoreGraphics.framework */; };
+		A5DD2C2B18B3826900E756A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DD2C2A18B3826900E756A3 /* UIKit.framework */; };
+		A5DD2C3118B3826900E756A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5DD2C2F18B3826900E756A3 /* InfoPlist.strings */; };
+		A5DD2C3318B3826900E756A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DD2C3218B3826900E756A3 /* main.m */; };
+		A5DD2C3718B3826900E756A3 /* TTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DD2C3618B3826900E756A3 /* TTAppDelegate.m */; };
+		A5DD2C3A18B3826900E756A3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DD2C3818B3826900E756A3 /* Main_iPhone.storyboard */; };
+		A5DD2C3D18B3826900E756A3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DD2C3B18B3826900E756A3 /* Main_iPad.storyboard */; };
+		A5DD2C4018B3826900E756A3 /* TTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DD2C3F18B3826900E756A3 /* TTViewController.m */; };
+		A5DD2C4218B3826900E756A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5DD2C4118B3826900E756A3 /* Images.xcassets */; };
+		A5DD2C4918B3826A00E756A3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DD2C4818B3826900E756A3 /* XCTest.framework */; };
+		A5DD2C4A18B3826A00E756A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DD2C2618B3826900E756A3 /* Foundation.framework */; };
+		A5DD2C4B18B3826A00E756A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DD2C2A18B3826900E756A3 /* UIKit.framework */; };
+		A5DD2C5318B3826A00E756A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5DD2C5118B3826A00E756A3 /* InfoPlist.strings */; };
+		A5DD2C5518B3826A00E756A3 /* PuzzlesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DD2C5418B3826A00E756A3 /* PuzzlesTests.m */; };
+		A5DD2C7118B382B100E756A3 /* tt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5DD2C6718B382B100E756A3 /* tt.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5DD2C4C18B3826A00E756A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5DD2C1B18B3826900E756A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5DD2C2218B3826900E756A3;
+			remoteInfo = Puzzles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A551BE1E18B4A5AC001CD7CB /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		A551BE1F18B4A5AC001CD7CB /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		A551BE2018B4A5AC001CD7CB /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		A551BE2118B4A5AC001CD7CB /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		A551BE3218B4B4DF001CD7CB /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		A551BE3418B4B50A001CD7CB /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		A551BE3618B4CA21001CD7CB /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		A551BE3718B4CA21001CD7CB /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		A551BE3A18B4CA46001CD7CB /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		A551BE3B18B4CA46001CD7CB /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		A551BE3C18B4CA46001CD7CB /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		A551BE4218B51F76001CD7CB /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		A551BE4418B52A26001CD7CB /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		A551BE4A18B5317F001CD7CB /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		A5915BAC18B628B200928607 /* mm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm.jpg; sourceTree = "<group>"; };
+		A5915BAE18B634B400928607 /* kk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kk.jpg; sourceTree = "<group>"; };
+		A5DD2C2318B3826900E756A3 /* Puzzles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puzzles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5DD2C2618B3826900E756A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5DD2C2818B3826900E756A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A5DD2C2A18B3826900E756A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A5DD2C2E18B3826900E756A3 /* Puzzles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Puzzles-Info.plist"; sourceTree = "<group>"; };
+		A5DD2C3018B3826900E756A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5DD2C3218B3826900E756A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5DD2C3418B3826900E756A3 /* Puzzles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Puzzles-Prefix.pch"; sourceTree = "<group>"; };
+		A5DD2C3518B3826900E756A3 /* TTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAppDelegate.h; sourceTree = "<group>"; };
+		A5DD2C3618B3826900E756A3 /* TTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAppDelegate.m; sourceTree = "<group>"; };
+		A5DD2C3918B3826900E756A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A5DD2C3C18B3826900E756A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A5DD2C3E18B3826900E756A3 /* TTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTViewController.h; sourceTree = "<group>"; };
+		A5DD2C3F18B3826900E756A3 /* TTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTViewController.m; sourceTree = "<group>"; };
+		A5DD2C4118B3826900E756A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A5DD2C4718B3826900E756A3 /* PuzzlesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuzzlesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5DD2C4818B3826900E756A3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A5DD2C5018B3826A00E756A3 /* PuzzlesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PuzzlesTests-Info.plist"; sourceTree = "<group>"; };
+		A5DD2C5218B3826A00E756A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5DD2C5418B3826A00E756A3 /* PuzzlesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuzzlesTests.m; sourceTree = "<group>"; };
+		A5DD2C6718B382B100E756A3 /* tt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tt.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5DD2C2018B3826900E756A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DD2C2918B3826900E756A3 /* CoreGraphics.framework in Frameworks */,
+				A5DD2C2B18B3826900E756A3 /* UIKit.framework in Frameworks */,
+				A5DD2C2718B3826900E756A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5DD2C4418B3826900E756A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DD2C4918B3826A00E756A3 /* XCTest.framework in Frameworks */,
+				A5DD2C4B18B3826A00E756A3 /* UIKit.framework in Frameworks */,
+				A5DD2C4A18B3826A00E756A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5BA386D18B751CE007D5699 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A551BE1F18B4A5AC001CD7CB /* 1.jpg */,
+				A551BE1E18B4A5AC001CD7CB /* 2.jpg */,
+				A551BE2018B4A5AC001CD7CB /* 3.jpg */,
+				A551BE2118B4A5AC001CD7CB /* 4.jpg */,
+				A551BE3218B4B4DF001CD7CB /* 5.jpg */,
+				A551BE3418B4B50A001CD7CB /* 6.jpg */,
+				A551BE3618B4CA21001CD7CB /* 8.jpg */,
+				A551BE3718B4CA21001CD7CB /* 7.jpg */,
+				A551BE3A18B4CA46001CD7CB /* 9.jpg */,
+				A551BE3C18B4CA46001CD7CB /* 10.jpg */,
+				A551BE3B18B4CA46001CD7CB /* 11.jpg */,
+				A551BE4218B51F76001CD7CB /* 12.jpg */,
+				A551BE4418B52A26001CD7CB /* 13.jpg */,
+				A551BE4A18B5317F001CD7CB /* 14.jpg */,
+				A5DD2C6718B382B100E756A3 /* tt.jpg */,
+				A5915BAE18B634B400928607 /* kk.jpg */,
+				A5915BAC18B628B200928607 /* mm.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		A5DD2C1A18B3826900E756A3 = {
+			isa = PBXGroup;
+			children = (
+				A5DD2C2C18B3826900E756A3 /* Puzzles */,
+				A5DD2C4E18B3826A00E756A3 /* PuzzlesTests */,
+				A5DD2C2518B3826900E756A3 /* Frameworks */,
+				A5DD2C2418B3826900E756A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5DD2C2418B3826900E756A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5DD2C2318B3826900E756A3 /* Puzzles.app */,
+				A5DD2C4718B3826900E756A3 /* PuzzlesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5DD2C2518B3826900E756A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5DD2C2618B3826900E756A3 /* Foundation.framework */,
+				A5DD2C2818B3826900E756A3 /* CoreGraphics.framework */,
+				A5DD2C2A18B3826900E756A3 /* UIKit.framework */,
+				A5DD2C4818B3826900E756A3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5DD2C2C18B3826900E756A3 /* Puzzles */ = {
+			isa = PBXGroup;
+			children = (
+				A5DD2C3518B3826900E756A3 /* TTAppDelegate.h */,
+				A5DD2C3618B3826900E756A3 /* TTAppDelegate.m */,
+				A5DD2C3818B3826900E756A3 /* Main_iPhone.storyboard */,
+				A5DD2C3B18B3826900E756A3 /* Main_iPad.storyboard */,
+				A5DD2C3E18B3826900E756A3 /* TTViewController.h */,
+				A5DD2C3F18B3826900E756A3 /* TTViewController.m */,
+				A5BA386D18B751CE007D5699 /* images */,
+				A5DD2C4118B3826900E756A3 /* Images.xcassets */,
+				A5DD2C2D18B3826900E756A3 /* Supporting Files */,
+			);
+			path = Puzzles;
+			sourceTree = "<group>";
+		};
+		A5DD2C2D18B3826900E756A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5DD2C2E18B3826900E756A3 /* Puzzles-Info.plist */,
+				A5DD2C2F18B3826900E756A3 /* InfoPlist.strings */,
+				A5DD2C3218B3826900E756A3 /* main.m */,
+				A5DD2C3418B3826900E756A3 /* Puzzles-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5DD2C4E18B3826A00E756A3 /* PuzzlesTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5DD2C5418B3826A00E756A3 /* PuzzlesTests.m */,
+				A5DD2C4F18B3826A00E756A3 /* Supporting Files */,
+			);
+			path = PuzzlesTests;
+			sourceTree = "<group>";
+		};
+		A5DD2C4F18B3826A00E756A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5DD2C5018B3826A00E756A3 /* PuzzlesTests-Info.plist */,
+				A5DD2C5118B3826A00E756A3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5DD2C2218B3826900E756A3 /* Puzzles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5DD2C5818B3826A00E756A3 /* Build configuration list for PBXNativeTarget "Puzzles" */;
+			buildPhases = (
+				A5DD2C1F18B3826900E756A3 /* Sources */,
+				A5DD2C2018B3826900E756A3 /* Frameworks */,
+				A5DD2C2118B3826900E756A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Puzzles;
+			productName = Puzzles;
+			productReference = A5DD2C2318B3826900E756A3 /* Puzzles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5DD2C4618B3826900E756A3 /* PuzzlesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5DD2C5B18B3826A00E756A3 /* Build configuration list for PBXNativeTarget "PuzzlesTests" */;
+			buildPhases = (
+				A5DD2C4318B3826900E756A3 /* Sources */,
+				A5DD2C4418B3826900E756A3 /* Frameworks */,
+				A5DD2C4518B3826900E756A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5DD2C4D18B3826A00E756A3 /* PBXTargetDependency */,
+			);
+			name = PuzzlesTests;
+			productName = PuzzlesTests;
+			productReference = A5DD2C4718B3826900E756A3 /* PuzzlesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5DD2C1B18B3826900E756A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = sergey;
+				TargetAttributes = {
+					A5DD2C4618B3826900E756A3 = {
+						TestTargetID = A5DD2C2218B3826900E756A3;
+					};
+				};
+			};
+			buildConfigurationList = A5DD2C1E18B3826900E756A3 /* Build configuration list for PBXProject "Puzzles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5DD2C1A18B3826900E756A3;
+			productRefGroup = A5DD2C2418B3826900E756A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5DD2C2218B3826900E756A3 /* Puzzles */,
+				A5DD2C4618B3826900E756A3 /* PuzzlesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5DD2C2118B3826900E756A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A551BE3E18B4CA46001CD7CB /* 11.jpg in Resources */,
+				A551BE4518B52A26001CD7CB /* 13.jpg in Resources */,
+				A551BE3818B4CA21001CD7CB /* 8.jpg in Resources */,
+				A551BE4318B51F76001CD7CB /* 12.jpg in Resources */,
+				A551BE2218B4A5AC001CD7CB /* 2.jpg in Resources */,
+				A5DD2C7118B382B100E756A3 /* tt.jpg in Resources */,
+				A5DD2C3D18B3826900E756A3 /* Main_iPad.storyboard in Resources */,
+				A5DD2C4218B3826900E756A3 /* Images.xcassets in Resources */,
+				A551BE3F18B4CA46001CD7CB /* 10.jpg in Resources */,
+				A5DD2C3A18B3826900E756A3 /* Main_iPhone.storyboard in Resources */,
+				A551BE4B18B5317F001CD7CB /* 14.jpg in Resources */,
+				A551BE3518B4B50A001CD7CB /* 6.jpg in Resources */,
+				A551BE3318B4B4DF001CD7CB /* 5.jpg in Resources */,
+				A5DD2C3118B3826900E756A3 /* InfoPlist.strings in Resources */,
+				A551BE3D18B4CA46001CD7CB /* 9.jpg in Resources */,
+				A5915BAD18B628B200928607 /* mm.jpg in Resources */,
+				A551BE2518B4A5AC001CD7CB /* 4.jpg in Resources */,
+				A551BE3918B4CA21001CD7CB /* 7.jpg in Resources */,
+				A5915BAF18B634B400928607 /* kk.jpg in Resources */,
+				A551BE2318B4A5AC001CD7CB /* 1.jpg in Resources */,
+				A551BE2418B4A5AC001CD7CB /* 3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5DD2C4518B3826900E756A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DD2C5318B3826A00E756A3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5DD2C1F18B3826900E756A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DD2C3718B3826900E756A3 /* TTAppDelegate.m in Sources */,
+				A5DD2C3318B3826900E756A3 /* main.m in Sources */,
+				A5DD2C4018B3826900E756A3 /* TTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5DD2C4318B3826900E756A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DD2C5518B3826A00E756A3 /* PuzzlesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5DD2C4D18B3826A00E756A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5DD2C2218B3826900E756A3 /* Puzzles */;
+			targetProxy = A5DD2C4C18B3826A00E756A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5DD2C2F18B3826900E756A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5DD2C3018B3826900E756A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5DD2C3818B3826900E756A3 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5DD2C3918B3826900E756A3 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A5DD2C3B18B3826900E756A3 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5DD2C3C18B3826900E756A3 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A5DD2C5118B3826A00E756A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5DD2C5218B3826A00E756A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5DD2C5618B3826A00E756A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5DD2C5718B3826A00E756A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5DD2C5918B3826A00E756A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzles/Puzzles-Prefix.pch";
+				INFOPLIST_FILE = "Puzzles/Puzzles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A5DD2C5A18B3826A00E756A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzles/Puzzles-Prefix.pch";
+				INFOPLIST_FILE = "Puzzles/Puzzles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A5DD2C5C18B3826A00E756A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Puzzles.app/Puzzles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzles/Puzzles-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PuzzlesTests/PuzzlesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A5DD2C5D18B3826A00E756A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Puzzles.app/Puzzles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzles/Puzzles-Prefix.pch";
+				INFOPLIST_FILE = "PuzzlesTests/PuzzlesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5DD2C1E18B3826900E756A3 /* Build configuration list for PBXProject "Puzzles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5DD2C5618B3826A00E756A3 /* Debug */,
+				A5DD2C5718B3826A00E756A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5DD2C5818B3826A00E756A3 /* Build configuration list for PBXNativeTarget "Puzzles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5DD2C5918B3826A00E756A3 /* Debug */,
+				A5DD2C5A18B3826A00E756A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5DD2C5B18B3826A00E756A3 /* Build configuration list for PBXNativeTarget "PuzzlesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5DD2C5C18B3826A00E756A3 /* Debug */,
+				A5DD2C5D18B3826A00E756A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5DD2C1B18B3826900E756A3 /* Project object */;
+}
